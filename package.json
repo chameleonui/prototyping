@@ -1,0 +1,17 @@
+{
+  "name": "prototyping",
+  "version": "0.0.0",
+  "description": "Basic Chamelon UI tools as static CSS for rapid prototyping",
+  "main": "index.js",
+  "dependencies": {
+    "chameleon-stylus-plugin": "~0.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "MIT",
+  "readmeFilename": "Readme.md"
+}

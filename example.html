@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Prototyping with Chamelon UI</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="index.css" />
+
+</head>
+<body>
+    <div class="row">
+        <div class="column hand-12 desk-10">
+            <div class="row row-tabular">
+                <div class="column hand-4">
+                    <img src="http://dummyimage.com/150x50" alt="Logo" />
+                </div>
+                <div class="column hand-8">
+                    <ul class="nav-inline align-right">
+                        <li><a href="#">Item 1</a></li>
+                        <li><a href="#">Item 2</a></li>
+                        <li><a href="#">Item 3</a></li>
+                        <li><a href="#">Item 4</a></li>
+                        <li><a href="#">Item 5</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column hand-12">
+                    <img src="http://dummyimage.com/1280x300" alt="Hero unit" />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column hand-12">
+                    <h2>
+                        <span class="hand-show lap-up-hide">Hand</span>
+                        <span class="hand-hide lap-show desk-hide">Lap</span>
+                        <span class="lap-down-hide desk-show">Desk</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column hand-12">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>hand-down</th>
+                                <th>hand</th>
+                                <th>hand-up</th>
+                                <th>lap-down</th>
+                                <th>lap</th>
+                                <th>lap-up</th>
+                                <th>desk-down</th>
+                                <th>desk</th>
+                                <th>desk-up</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class="hand-down-show">visible</span>
+                                    <span class="hand-down-hide">–</span>
+                                </td>
+                                <td>
+                                    <span class="hand-show">visible</span>
+                                    <span class="hand-hide">–</span>
+                                </td>
+                                <td>
+                                    <span class="hand-up-show">visible</span>
+                                    <span class="hand-up-hide">–</span>
+                                </td>
+                                <td>
+                                    <span class="lap-down-show">visible</span>
+                                    <span class="lap-down-hide">–</span>
+                                </td>
+                                <td>
+                                    <span class="lap-show">visible</span>
+                                    <span class="lap-hide">–</span>
+                                </td>
+                                <td>
+                                    <span class="lap-up-show">visible</span>
+                                    <span class="lap-up-hide">–</span>
+                                </td>
+                                <td>
+                                    <span class="desk-down-show">visible</span>
+                                    <span class="desk-down-hide">–</span>
+                                </td>
+                                <td>
+                                    <span class="desk-show">visible</span>
+                                    <span class="desk-hide">–</span>
+                                </td>
+                                <td>
+                                    <span class="desk-up-show">visible</span>
+                                    <span class="desk-up-hide">–</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column hand-12 lap-3 desk-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, iusto, impedit, consequuntur, voluptatibus pariatur reprehenderit beatae iste unde optio blanditiis inventore hic soluta aperiam facere distinctio ullam necessitatibus dolorum dolorem! Voluptatibus, iste, facilis, officiis, autem similique quaerat natus nisi tempora rem sequi magni.</p>
+                </div>
+                <div class="column hand-12 lap-3 desk-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, deleniti, quidem sed magni blanditiis molestias non minima voluptatem dicta quibusdam cupiditate culpa quae laborum doloremque at? Quam, ex magnam ratione perspiciatis mollitia quas. Assumenda fugiat harum error vel nesciunt nostrum dignissimos iure quisquam consequuntur autem.</p>
+                </div>
+                <div class="column hand-12 lap-3 desk-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, iure pariatur quaerat blanditiis ea omnis esse quasi amet suscipit expedita officiis sed iusto facilis quas dolore. Harum, tenetur, iste perspiciatis libero facere dolorum placeat veritatis obcaecati in veniam accusantium temporibus molestiae nemo id accusamus quos.</p>
+                </div>
+                <div class="column hand-12 lap-3 desk-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, repellendus, sint, saepe, modi culpa soluta nobis odio quis aspernatur nihil doloremque facilis similique distinctio sapiente quia dicta qui animi atque nemo in. Voluptatum, repellendus debitis laborum voluptatibus vitae iste fugiat! Quo a provident nam harum de jaru es marote inum grap ku regen.</p>
+                </div>
+            </div>
+
+            <h2>Reversed Order</h2>
+            <div class="row">
+                <div class="column hand-12 lap-4 lap-push-8">
+                    <img class="centered" src="http://dummyimage.com/250x250" alt="" />
+                </div>
+                <div class="column hand-12 lap-8 lap-pull-4">
+                    <ul class="nav nav-tabs">
+                        <li class="is-active"><a href="#info1">One</a></li>
+                        <li><a href="#info2">Two</a></li>
+                        <li><a href="#info3">Three</a></li>
+                        <li><a href="#info4">Four</a></li>
+                        <li><a href="#info5">Five</a></li>
+                    </ul>
+                    
+                    <div id="info1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, fugit obcaecati laborum quae totam animi recusandae! Et iusto tenetur asperiores officiis eum adipisci nemo ex.</p>
+                        <p>Qui, quas, officiis, voluptatum deleniti explicabo expedita quibusdam harum aperiam similique aut eius praesentium sapiente doloremque beatae tempora labore iste ut nemo fugit earum quia.</p>
+                        <p><a href="#" class="button button-primary">Order now</a></p>
+                    </div>
+                    <div id="info2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, sint, blanditiis error doloremque quam harum animi similique. Ad, dolores molestiae voluptatem ipsam odit neque sint!</p>
+                        <p>Est, eveniet dolorum adipisci nihil neque non vel aut in placeat ipsum. Minima, nisi, deleniti magnam similique modi tempora voluptas eveniet id consectetur voluptatibus sequi.</p>
+                    </div>
+                    <div id="info3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, impedit, eaque, cupiditate eveniet totam quo cum quisquam perferendis pariatur magnam repudiandae nam? Sequi, aliquam, eius.</p>
+                        <p>Consequuntur, fuga earum accusantium ratione odit veniam incidunt soluta ab inventore neque eius nihil dolor possimus? Consequatur, cum, sapiente officia inventore tempora ut ullam veritatis!</p>
+                    </div>
+                    <div id="info4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati, tempore, magni assumenda necessitatibus possimus enim natus corporis sed ducimus est quibusdam atque incidunt deserunt!</p>
+                        <p>Praesentium, nisi, dolore numquam recusandae maiores fuga cum minus voluptas ex neque enim aperiam quae cupiditate dolorum cumque iusto accusantium mollitia vero eum dicta delectus.</p>
+                    </div>
+                    <div id="info5">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, doloremque, fuga nesciunt id aperiam non assumenda eos delectus inventore officiis itaque explicabo molestias porro repellat!</p>
+                        <p>Fugit, sequi, hic quod molestias eius tempora reiciendis placeat dolorum inventore eligendi harum dolorem doloribus sed quasi quo in quos possimus quam accusamus facere! Impedit.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Tabular Row</h2>
+            <div class="row row-tabular">
+                <div class="column hand-12 lap-4 desk-2">
+                    <img class="centered" src="http://dummyimage.com/250x250" alt="" />
+                </div>
+                <div class="column hand-12 lap-8 desk-10">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, asperiores, ea, hic, aperiam repellat beatae facilis tenetur dolores quasi cumque commodi fugiat eveniet laudantium vel est recusandae doloribus maiores. Nemo, consectetur vero quaerat odio totam quam dolorum labore quasi soluta!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, voluptatem, voluptatibus, voluptate, expedita dignissimos maiores ad nobis ea odio quis incidunt dolorem accusamus unde et!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, asperiores, ea, hic, aperiam repellat beatae facilis tenetur dolores quasi cumque commodi fugiat eveniet laudantium vel est recusandae doloribus maiores. Nemo, consectetur vero quaerat odio totam quam dolorum labore quasi soluta!</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column hand-12">
+                    <h3>Tiles</h3>
+                    <ul class="hand-tiles">
+                        <li><img src="http://dummyimage.com/100x100" /></li>
+                        <li><img src="http://dummyimage.com/100x100" /></li>
+                        <li><img src="http://dummyimage.com/100x100" /></li>
+                        <li><img src="http://dummyimage.com/100x100" /></li>
+                        <li><img src="http://dummyimage.com/100x100" /></li>
+                        <li><img src="http://dummyimage.com/100x100" /></li>
+                        <li><img src="http://dummyimage.com/100x100" /></li>
+                        <li><img src="http://dummyimage.com/100x100" /></li>
+                        <li><img src="http://dummyimage.com/100x100" /></li>
+                        <li><img src="http://dummyimage.com/100x100" /></li>
+                        <li><img src="http://dummyimage.com/100x100" /></li>
+                        <li><img src="http://dummyimage.com/100x100" /></li>
+                    </ul>
+                    <ul class="hand-tiles-2 lap-tiles-4">
+                        <li><img src="http://dummyimage.com/400x400" /></li>
+                        <li><img src="http://dummyimage.com/400x400" /></li>
+                        <li><img src="http://dummyimage.com/400x400" /></li>
+                        <li><img src="http://dummyimage.com/400x400" /></li>
+                        <li><img src="http://dummyimage.com/400x400" /></li>
+                        <li><img src="http://dummyimage.com/400x400" /></li>
+                        <li><img src="http://dummyimage.com/400x400" /></li>
+                        <li><img src="http://dummyimage.com/400x400" /></li>
+                        <li><img src="http://dummyimage.com/400x400" /></li>
+                        <li><img src="http://dummyimage.com/400x400" /></li>
+                        <li><img src="http://dummyimage.com/400x400" /></li>
+                        <li><img src="http://dummyimage.com/400x400" /></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div> 
+
+        <div class="column hand-12 desk-2">
+            <h2>Side Bar</h2>
+            <div class="row">
+                <div class="column hand-12 lap-4 desk-12">
+                    <img class="centered" src="http://dummyimage.com/160x160" alt="" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, necessitatibus, delectus consectetur natus beatae vitae veritatis iste est sunt explicabo.<br/>
+                    <a href="#">Read more…</a></p>
+                </div>
+                <div class="column hand-12 lap-4 desk-12">
+                    <img class="centered" src="http://dummyimage.com/160x160" alt="" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, necessitatibus, delectus consectetur natus beatae vitae veritatis iste est sunt explicabo.<br/>
+                    <a href="#">Read more…</a></p>
+                </div>
+                <div class="column hand-12 lap-4 desk-12">
+                    <img class="centered" src="http://dummyimage.com/160x160" alt="" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, necessitatibus, delectus consectetur natus beatae vitae veritatis iste est sunt explicabo.<br/>
+                    <a href="#">Read more…</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script>
+        var Tabs = require('chameleonui-nav/tabs');
+        var nav = new Tabs();
+    </script>
+</body>
+</html>

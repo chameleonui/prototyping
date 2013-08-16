@@ -1,0 +1,21 @@
+{
+  "name": "prototyping",
+  "repo": "chameleonui/prototyping",
+  "description": "Basic Chamelon UI tools as static CSS for rapid prototyping",
+  "version": "1.0.0",
+  "keywords": [],
+  "dependencies": {
+    "chameleonui/core": "*",
+    "chameleonui/typography": "*",
+    "chameleonui/grid-responsive": "*",
+    "chameleonui/nav": "*",
+    "chameleonui/form": "*",
+    "chameleonui/button": "*",
+    "chameleonui/table": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "index.styl"
+  ]
+}

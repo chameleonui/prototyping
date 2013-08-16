@@ -1,0 +1,47 @@
+// ============================================================================
+// Set Use Flags
+// ============================================================================
+
+
+
+// ============================================================================
+// Set Variables
+// ============================================================================
+color-default = #434343;
+color-action = #cc4125;
+
+html-color = color-default;
+heading-color = color-default;
+
+link-color = color-action;
+link-hover-color = color-action;
+link-visited-color = color-action;
+
+button-primary-bg-color = color-action;
+button-primary-border-color = color-action;
+button-primary-hover-bg-color = color-action;
+button-primary-hover-border-color = color-action;
+button-primary-active-bg-color = darken(color-action, 20%);
+button-primary-active-border-color = darken(color-action, 20%);
+
+// ============================================================================
+// Activate modules
+// ============================================================================
+core();
+typography();
+grid-responsive();
+nav();
+form();
+button();
+table();
+
+
+// ============================================================================
+// Custom styles
+// ============================================================================
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
